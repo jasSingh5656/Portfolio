@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+body{
+    font-family: 'Libre Baskerville', serif;
+    margin: 0px;
+}
+
+:root{
+    --primary-color: #6D28D9;
+    --grey-color : #E5E7EB;
+}
+
+.navigation {
+    color: white;
+    background-color: var(--primary-color);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 72px;
+    margin-bottom: 100px;
+}
+.portfolio {
+    width: 250px;
+    /* border: solid black; */
+    display: inline-block;  
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.unordered{
+    text-align: right;
+    /* border: solid black; */
+    max-width: 500px;
+    margin-left: 600px;
+    display: inline-block;
+    overflow: visible;
+    position: absolute;
+    top: 4px;
+    margin-right: 5px;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0px 10px;
+    color: white;
+    margin: 0px;
+    text-decoration: none;
+
+}
+
+.linkedit {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.heroimage {
+    max-width: 600px;
+    display: block;
+    margin: auto; 
+    margin-bottom: 30px;
+}
+.heroheading {
+    text-align: center;
+    /* margin: auto; */
+}
+
+section  {
+    text-align: center;
+    height: 200px;
+    padding-top: 10px;
+}
+  #somee {
+      margin-top: 50px;
+  }
+
+.sectioncolors{
+    background-color: var(--grey-color);
+    /* border: solid black; */
+    
+}
+.button-style {
+    background-color: var(--primary-color);
+    color:white;
+    padding: 6px 10px;
+    border-radius: 6px;
+    text-decoration: none;
+    /* border: solid black; */
+    margin-top: 0px;
+    
+}
+
+.sectioncolors a {
+    margin-top: 20px;
+}
+
+.space{
+    margin-top: 25px;
+}
+
+
+.footclass {
+    margin-top: -10px;
+    height: 200px;
+    background-color: var(--primary-color);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.footer-heading {
+    text-align: center;
+    max-width: 200px;
+    margin-left: 540px;
+    padding-top: 45px;
+    color: white;
+    font-weight: bold;
+    color: white;
+}
+
+.footclass ul {
+    text-decoration: none;
+    list-style: none;
+    margin-top: 30px;
+    text-align: center;
+    padding-inline-start: 0px;
+}
+
+.footclass ul li {
+    display: inline;
+    margin-right: 50px;
+}
+ .footclass ul li a {
+    color: white;
+    text-decoration: none;
+ }
+
+
+ /* projects css */
+ #somm{
+     max-width: 50%;
+     border-radius: 20px;
+     margin: auto;
+ }
+ #somm div  {
+     display: inline-block;
+     margin-right: 30px;
+ }
